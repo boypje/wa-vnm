@@ -1,0 +1,100 @@
+2024/10/17-13:51:00.782 2904 Reusing MANIFEST E:\bot-IT\tokens\my-session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/10/17-13:51:00.783 2904 Recovering log #447
+2024/10/17-13:51:00.788 2904 Reusing old log E:\bot-IT\tokens\my-session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000447.log 
+2024/10/17-13:51:13.139 191c Compacting 1@1 + 9@2 files
+2024/10/17-13:51:13.271 191c Generated table #450@1: 72816 keys, 2245675 bytes
+2024/10/17-13:51:13.405 191c Generated table #451@1: 36291 keys, 2196699 bytes
+2024/10/17-13:51:13.509 191c Generated table #452@1: 7570 keys, 2179847 bytes
+2024/10/17-13:51:13.581 191c Generated table #453@1: 16256 keys, 2153731 bytes
+2024/10/17-13:51:13.621 191c Generated table #454@1: 1163 keys, 2116179 bytes
+2024/10/17-13:51:13.744 191c Level-0 table #457: started
+2024/10/17-13:51:13.756 191c Level-0 table #457: 60948 bytes OK
+2024/10/17-13:51:13.758 191c Delete type=0 #447
+2024/10/17-13:51:13.794 191c Generated table #455@1: 58688 keys, 2193177 bytes
+2024/10/17-13:51:14.104 191c Generated table #458@1: 114560 keys, 2268154 bytes
+2024/10/17-13:51:14.360 191c Generated table #459@1: 114456 keys, 2269098 bytes
+2024/10/17-13:51:14.538 191c Generated table #460@1: 79662 keys, 1581242 bytes
+2024/10/17-13:51:14.538 191c Compacted 1@1 + 9@2 files => 19203802 bytes
+2024/10/17-13:51:14.539 191c compacted to: files[ 1 0 9 0 0 0 0 ]
+2024/10/17-13:51:14.540 2904 Manual compaction at level-0 from '\x00\x1b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1c\x00\x00\x00' @ 0 : 0; will stop at '\x00\x1b\x00\x00\x05' @ 2466945 : 1
+2024/10/17-13:51:14.540 2904 Compacting 1@0 + 0@1 files
+2024/10/17-13:51:14.545 2904 Generated table #461@0: 2062 keys, 33975 bytes
+2024/10/17-13:51:14.545 2904 Compacted 1@0 + 0@1 files => 33975 bytes
+2024/10/17-13:51:14.546 2904 compacted to: files[ 0 1 9 0 0 0 0 ]
+2024/10/17-13:51:14.547 2904 Delete type=2 #457
+2024/10/17-13:51:14.547 2904 Manual compaction at level-0 from '\x00\x1b\x00\x00\x05' @ 2466945 : 1 .. '\x00\x1c\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/10/17-13:51:17.970 191c Compacting 1@1 + 4@2 files
+2024/10/17-13:51:18.387 191c Generated table #462@1: 72355 keys, 2246561 bytes
+2024/10/17-13:51:18.553 191c Generated table #463@1: 35800 keys, 2194409 bytes
+2024/10/17-13:51:18.641 191c Generated table #464@1: 8194 keys, 2184779 bytes
+2024/10/17-13:51:18.746 191c Generated table #465@1: 15611 keys, 2088894 bytes
+2024/10/17-13:51:18.746 191c Compacted 1@1 + 4@2 files => 8714643 bytes
+2024/10/17-13:51:18.748 191c compacted to: files[ 0 0 9 0 0 0 0 ]
+2024/10/17-13:51:18.748 191c Delete type=2 #438
+2024/10/17-13:51:18.749 191c Delete type=2 #439
+2024/10/17-13:51:18.749 191c Delete type=2 #440
+2024/10/17-13:51:18.749 191c Delete type=2 #441
+2024/10/17-13:51:18.749 191c Delete type=2 #442
+2024/10/17-13:51:18.749 191c Delete type=2 #443
+2024/10/17-13:51:18.749 191c Delete type=2 #444
+2024/10/17-13:51:18.749 191c Delete type=2 #445
+2024/10/17-13:51:18.749 191c Delete type=2 #446
+2024/10/17-13:51:18.749 191c Delete type=2 #448
+2024/10/17-13:51:18.750 191c Delete type=2 #450
+2024/10/17-13:51:18.750 191c Delete type=2 #451
+2024/10/17-13:51:18.750 191c Delete type=2 #452
+2024/10/17-13:51:18.750 191c Delete type=2 #453
+2024/10/17-13:51:18.750 191c Delete type=2 #461
+2024/10/17-13:55:56.318 191c Level-0 table #467: started
+2024/10/17-13:55:56.346 191c Level-0 table #467: 1175196 bytes OK
+2024/10/17-13:55:56.347 191c Delete type=0 #456
+2024/10/17-13:56:46.580 191c Compacting 1@1 + 9@2 files
+2024/10/17-13:56:46.865 191c Generated table #468@1: 73915 keys, 2247753 bytes
+2024/10/17-13:56:46.964 191c Generated table #469@1: 36246 keys, 2196356 bytes
+2024/10/17-13:56:47.000 191c Generated table #470@1: 7566 keys, 2180235 bytes
+2024/10/17-13:56:47.040 191c Generated table #471@1: 16241 keys, 2153706 bytes
+2024/10/17-13:56:47.092 191c Generated table #472@1: 1065 keys, 2116557 bytes
+2024/10/17-13:56:47.163 191c Generated table #473@1: 55408 keys, 2187223 bytes
+2024/10/17-13:56:47.243 191c Generated table #474@1: 114499 keys, 2268784 bytes
+2024/10/17-13:56:47.319 191c Generated table #475@1: 114316 keys, 2267128 bytes
+2024/10/17-13:56:47.377 191c Generated table #476@1: 88341 keys, 1756290 bytes
+2024/10/17-13:56:47.377 191c Compacted 1@1 + 9@2 files => 19374032 bytes
+2024/10/17-13:56:47.378 191c compacted to: files[ 0 0 9 0 0 0 0 ]
+2024/10/17-13:56:47.378 191c Delete type=2 #454
+2024/10/17-13:56:47.378 191c Delete type=2 #455
+2024/10/17-13:56:47.378 191c Delete type=2 #458
+2024/10/17-13:56:47.378 191c Delete type=2 #459
+2024/10/17-13:56:47.378 191c Delete type=2 #460
+2024/10/17-13:56:47.378 191c Delete type=2 #462
+2024/10/17-13:56:47.378 191c Delete type=2 #463
+2024/10/17-13:56:47.378 191c Delete type=2 #464
+2024/10/17-13:56:47.378 191c Delete type=2 #465
+2024/10/17-13:56:47.378 191c Delete type=2 #467
+2024/10/17-14:01:32.692 2904 Level-0 table #478: started
+2024/10/17-14:01:32.715 2904 Level-0 table #478: 971053 bytes OK
+2024/10/17-14:01:32.717 2904 Delete type=0 #466
+2024/10/17-14:02:14.709 191c Compacting 1@1 + 9@2 files
+2024/10/17-14:02:14.868 191c Generated table #479@1: 74061 keys, 2248400 bytes
+2024/10/17-14:02:14.942 191c Generated table #480@1: 37599 keys, 2199681 bytes
+2024/10/17-14:02:14.973 191c Generated table #481@1: 6792 keys, 2175599 bytes
+2024/10/17-14:02:15.013 191c Generated table #482@1: 14942 keys, 2152540 bytes
+2024/10/17-14:02:15.042 191c Generated table #483@1: 3158 keys, 2124738 bytes
+2024/10/17-14:02:15.130 191c Generated table #484@1: 50283 keys, 2181201 bytes
+2024/10/17-14:02:15.278 191c Generated table #485@1: 114451 keys, 2267912 bytes
+2024/10/17-14:02:15.559 191c Generated table #486@1: 114626 keys, 2269369 bytes
+2024/10/17-14:02:15.781 191c Generated table #487@1: 94658 keys, 1881506 bytes
+2024/10/17-14:02:15.781 191c Compacted 1@1 + 9@2 files => 19500946 bytes
+2024/10/17-14:02:15.782 191c compacted to: files[ 0 0 9 0 0 0 0 ]
+2024/10/17-14:02:15.783 191c Delete type=2 #468
+2024/10/17-14:02:15.783 191c Delete type=2 #469
+2024/10/17-14:02:15.783 191c Delete type=2 #470
+2024/10/17-14:02:15.783 191c Delete type=2 #471
+2024/10/17-14:02:15.783 191c Delete type=2 #472
+2024/10/17-14:02:15.783 191c Delete type=2 #473
+2024/10/17-14:02:15.783 191c Delete type=2 #474
+2024/10/17-14:02:15.783 191c Delete type=2 #475
+2024/10/17-14:02:15.783 191c Delete type=2 #476
+2024/10/17-14:02:15.784 191c Delete type=2 #478
+2024/10/17-14:13:26.529 fec Level-0 table #489: started
+2024/10/17-14:13:26.578 fec Level-0 table #489: 1095265 bytes OK
+2024/10/17-14:13:26.580 fec Delete type=0 #477

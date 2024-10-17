@@ -1,0 +1,6 @@
+2024/10/17-13:51:00.242 1e5c Reusing MANIFEST E:\bot-IT\tokens\my-session\Default\Local Storage\leveldb/MANIFEST-000001
+2024/10/17-13:51:00.244 1e5c Recovering log #4
+2024/10/17-13:51:00.252 1e5c Reusing old log E:\bot-IT\tokens\my-session\Default\Local Storage\leveldb/000004.log 
+2024/10/17-13:53:00.733 1e5c Level-0 table #8: started
+2024/10/17-13:53:00.741 1e5c Level-0 table #8: 13937 bytes OK
+2024/10/17-13:53:00.745 1e5c Delete type=0 #4
