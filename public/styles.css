@@ -13,16 +13,40 @@ body {
     background-color: #f8f9fa;
     overflow-y: auto;
 }
-#sidebar h2 {
-    text-align: center;
+#sidebar h4 {
+    margin-left: 10px;
 }
 
 .sidebar-header {
     padding: 10px;
-    background-color: #075e54;
-    color: white;
-    margin-bottom: 20px;
+    background-color: #f8f9fa;
+    margin-bottom: -10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
+
+.search-container {
+    padding: 10px;
+    background-color: #f8f9fa;
+    margin-bottom: 25px;
+    position: sticky;
+    top: 50px;
+    z-index: 1;
+}
+
+/* Ensure the icon appears to the right */
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style for the chat modal */
+.modal-content {
+    border-radius: 8px;
+}
+
 
 #chat-list {
     padding: 0;
@@ -30,15 +54,12 @@ body {
 }
 
 #chat-list li {
-    width: 95%;
+    width: 105%;
     cursor: pointer;
     padding: 15px;
-    border: 1px solid #ddd;
-    border-radius: 15px;
-    margin-bottom: 10px;
+    border: 2px solid #ddd;
     background-color: white;
     transition: background-color 0.3s;
-    margin-left: 6px;
 }
 
 #chat-list li:hover {
@@ -123,33 +144,32 @@ body {
     border: 1px solid #ccc;
     border-radius: 15px; 
 }
-.search-container {
-    padding: 10px;
-    margin-bottom: 10px;
+
+
+.search-container i {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    color: #ccc; 
 }
 
 #search-input {
     width: 100%;
-    padding: 8px;
+    padding: 8px 8px 8px 30px;
     border: 1px solid #ddd;
     border-radius: 15px;
     font-size: 14px;
 }
 
-.search-container {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
-#search-input {
-    flex-grow: 1;
-    margin-right: 10px;
-}
-
 #add-chat-btn {
-    padding: 5px 10px;
-    font-size: 18px;
-    line-height: 1;
+    font-size: 16px;
+    cursor: pointer;
+    width: 30px; /* Atur lebar tombol */
+    height: 30px; /* Atur tinggi tombol */
+    border-radius: 50%; /* Membuat tombol bulat */
+    display: flex; /* Menggunakan flexbox untuk menyelaraskan konten */
+    align-items: center; /* Menyelaraskan item secara vertikal */
+    justify-content: center; /* Menyelaraskan item secara horizontal */
+    line-height: 30px; /* Menyamakan dengan tinggi tombol */
 }

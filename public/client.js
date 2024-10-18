@@ -124,3 +124,44 @@ socket.on('error', (msg) => {
     alert(msg);
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+    const socket = io();
+    const addChatModal = new bootstrap.Modal(document.getElementById('addChatModal'));
+    const sendNewMessageBtn = document.getElementById('sendNewMessage');
+    const phoneNumberInput = document.getElementById('phoneNumber');
+    const messageInput = document.getElementById('message');
+
+    sendNewMessageBtn.addEventListener('click', () => {
+        const phoneNumber = phoneNumberInput.value;
+        const message = messageInput.value;
+        
+        if (phoneNumber && message) {
+            // Format nomor telepon sesuai kebutuhan WhatsApp
+            const formattedNumber = `${phoneNumber}@c.us`;
+            
+            // Kirim pesan ke server
+            socket.emit('sendMessage', { chatId: formattedNumber, message }, (response) => {
+                if (response.success) {
+                    console.log('Pesan berhasil dikirim');
+                    
+                    // Tutup modal
+                    addChatModal.hide();
+                    
+                    // Reset form
+                    phoneNumberInput.value = '';
+                    messageInput.value = '';
+                    
+                    // Pilih chat yang baru saja dikirim
+                    selectChat(formattedNumber, phoneNumber);
+                } else {
+                    console.error('Gagal mengirim pesan:', response.error);
+                    alert('Gagal mengirim pesan. Silakan coba lagi.');
+                }
+            });
+        } else {
+            alert('Mohon isi nomor telepon dan pesan.');
+        }
+    });
+
+    // ... Kode lainnya ...
+});

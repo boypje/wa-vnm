@@ -45,20 +45,22 @@ io.on('connection', (socket) => {
         }
     });
 
-    socket.on('sendMessage', ({ chatId, message }) => {
+    socket.on('sendMessage', ({ chatId, message }, callback) => {
         console.log(`Mengirim pesan ke ${chatId}: ${message}`);
         sendMessage(chatId, message).then(() => {
-            console.log(`Pesan berhasil dikirim ke ${chatId}`);
+            console.log(`Pesan berhasil dikirim ke ${chatId}`); callback({ success: true });
         }).catch(error => {
             console.error('Error mengirim pesan:', error);
-            socket.emit('error', 'Gagal mengirim pesan');
+            callback({ success: false, error: 'Gagal mengirim pesan' });
         });
     });
 
     socket.on('disconnect', () => {
         console.log('Seorang user terputus');
     });
+    
 });
+
 
 const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
